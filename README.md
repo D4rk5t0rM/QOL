@@ -3,9 +3,9 @@ Quality of life improvemnts; A repo filled with scripts that can automate certai
 
 # Installation
 Clone the whole repo:
-  git clone https://github.com/D4rk5t0rM/QOL.git
+```git clone https://github.com/D4rk5t0rM/QOL.git```
 Install only the scripts you want:
-  wget https://raw.githubusercontent.com/D4rk5t0rM/QOL/master/LICENSE
+```wget https://raw.githubusercontent.com/D4rk5t0rM/QOL/master/LICENSE```
 (or use any other you know of cloning a repo/file)
 
 # Scripts
