@@ -36,7 +36,7 @@ def main():
         
         #package update
         counter += 17
-
+    move(230,133)
     print("done!")
 
 #---------#
