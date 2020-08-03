@@ -10,6 +10,7 @@ def move(x,y):
     pyautogui.click()
 
 def main():
+    #used for selecting the right package in the list.
     counter = 245
 
     print("how many items?...")
