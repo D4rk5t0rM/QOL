@@ -1,6 +1,7 @@
 #pip install -r requirements.txt
 pyscreenshot
 keyboard
-pytesseract
+tesseract
+tesseract-ocr
 pyautogui
 pynput
