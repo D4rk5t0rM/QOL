@@ -15,6 +15,7 @@ from pynput import mouse
 import keyboard
 import pytesseract as ocr
 from PIL import Image
+import pyperclip as clip
 
 coord=list()
 def on_click(x, y, button, pressed):
@@ -64,8 +65,11 @@ def main():
         # img1 = Image.open("ocr.png")
         # text = ocr.image_to_string(img1)
         text = ocr.image_to_string(img)
+        
+        print("\n" + "-"*100 + "\n" + " "*5 +text + "\n" + "-"*100 + "\n")
+        # add to clipboard automaticly
+        clip.copy(text)
 
-        print(text)
 
 while True:
     main()
