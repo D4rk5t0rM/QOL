@@ -5,3 +5,4 @@ tesseract
 tesseract-ocr
 pyautogui
 pynput
+win32com
