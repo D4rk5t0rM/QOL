@@ -71,5 +71,5 @@ def main():
         clip.copy(text)
 
 
-while True:
+while True: 
     main()
