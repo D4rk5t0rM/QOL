@@ -24,5 +24,9 @@ An automated way to select a few settings in the program 'Content Package Assist
 ## ocr.py
 Python script that makes OCR possible by selecting an area on screen. will output the OCR text data to the shell. (dependency tesseract should be installed and added to your path variable to make it work. default ocr screenshot hotkey is <alt + p>
 
+## ReverseImageAutomation.py
+A Python script that makes reverse image searching a bit easier. It will automate the search of various sites so you don't have to go to them one by one.
+you can either paste the URL in an input screen or let the script copy a URL of a picture from the clipboard
+
 ## requirements.txt
 run ```pip3 install -r requirements.txt``` to install python inmports by all these scripts.
