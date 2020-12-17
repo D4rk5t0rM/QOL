@@ -30,3 +30,6 @@ you can either paste the URL in an input screen or let the script copy a URL of 
 
 ## requirements.txt
 run ```pip3 install -r requirements.txt``` to install python inmports by all these scripts.
+
+## tts.py
+A python script that turns a 'transcript.speak' file from the same folder into a MP3 file + Every line from the file will also get it's own mp3 file.
