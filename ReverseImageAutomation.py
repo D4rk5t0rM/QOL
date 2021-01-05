@@ -30,7 +30,3 @@ def main():
     print('Press enter to close...')
     input()
 main()
-<<<<<<< HEAD
-
-=======
->>>>>>> e85be155127f55d561601b94ed80dd7db9708070
