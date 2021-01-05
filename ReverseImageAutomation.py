@@ -6,7 +6,8 @@ import time
 def main():
     print("Please provide a link to an image - press enter to read from clipboard:   ")
     try:
-        link = urllib.parse.quote(input())
+        link = input()
+        #link = urllib.parse.quote(input())
         if link == '':
             link = pyperclip.paste()
         link = link.replace('/','%2F')
@@ -29,4 +30,7 @@ def main():
     print('Press enter to close...')
     input()
 main()
+<<<<<<< HEAD
 
+=======
+>>>>>>> e85be155127f55d561601b94ed80dd7db9708070
