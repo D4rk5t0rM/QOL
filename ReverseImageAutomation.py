@@ -25,8 +25,8 @@ def main():
     webbrowser.open('https://iqdb.org/?url='+link)
     time.sleep(0.4)
     webbrowser.open('https://saucenao.com/search.php?url='+link)
-    
     #needed if you don't have firefox running already
     print('Press enter to close...')
     input()
 main()
+
