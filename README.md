@@ -35,4 +35,7 @@ run ```pip3 install -r requirements.txt``` to install python inmports by all the
 A python script that turns a 'transcript.speak' file from the same folder into a MP3 file + Every line from the file will also get it's own mp3 file.
 
 ## imgCrawler.py
-A ptyhon script that crawls a webpage for all the images on the page and downloads them.
+A ptyhon script that crawls a webpage for all the images on the page and downloads them
+
+## OpenUrl.py
+A python script that will open urls that are spcified in a file called URL.txt
